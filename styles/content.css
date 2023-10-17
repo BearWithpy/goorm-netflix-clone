@@ -105,12 +105,12 @@ div.splash div.contents p {
 }
 
 .flex-item {
-    width: 150px;
-    height: 300px;
+    width: 299px;
+    height: 168px;
     color: white;
     font-size: large;
     padding: 1rem;
-    border: 1px solid aliceblue;
+
     text-align: center;
     align-items: center;
 }
