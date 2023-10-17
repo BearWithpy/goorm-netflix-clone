@@ -16,7 +16,10 @@ div.splash div.background img {
     width: 100vw;
     opacity: 0.6;
 }
-div.splash div.gradient {
+
+div.splash div.background div.gradient {
+    position: absolute;
+    inset: 0;
     background-image: linear-gradient(
         to top,
         rgba(0, 0, 0, 0.8) 0,
@@ -31,10 +34,10 @@ div.splash div.contents {
     inset: 0;
     /* display: grid;
     align-items: center; */
-    padding: 110px 0 0 55px;
+    padding: 160px 0 0 55px;
 }
 div.splash div.contents h1 {
-    margin: 0;
+    margin: 0 0 10px 0;
     font-size: 60px;
     padding: 3px;
 }
@@ -43,7 +46,8 @@ div.splash div.contents p {
 }
 
 .netflix-original-section h1,
-.trending-now-section h1 {
+.trending-now-section h1,
+.wow-section h1 {
     margin-left: 10px;
     color: white;
 }
