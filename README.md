@@ -9,6 +9,10 @@
 
 개발 기간: 2023.10.17 (화) ~ 2023.10.18 (수)
 
+### Github Pages deployment
+
+https://bearwithpy.github.io/goorm-netflix-clone/
+
 ### 비고
 
 -   이미지 파일 업데이트 (2023.10.18)
