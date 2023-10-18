@@ -14,6 +14,7 @@ div.splash div.background img {
 
 div.splash div.background div.gradient {
     position: absolute;
+    width: 100vw;
     inset: 0;
     background-image: linear-gradient(
         to top,
@@ -25,10 +26,36 @@ div.splash div.background div.gradient {
 
 div.splash div.contents {
     color: #fff;
+
     position: absolute;
     inset: 0;
     padding: 160px 0 0 55px;
 }
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+    div.splash div.contents {
+        padding: 140px 0 0 55px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    div.splash div.contents {
+        padding: 90px 0 0 35px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1199px) {
+    div.splash div.contents {
+        padding: 60px 0 0 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    div.splash div.contents {
+        display: none;
+    }
+}
+
 div.splash div.contents h1 {
     margin: 0 0 10px 0;
     font-size: 60px;
@@ -93,7 +120,9 @@ div.splash div.contents p {
     color: #fff;
     /* border: 3px solid aliceblue; */
     display: flex;
+    align-items: left;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
